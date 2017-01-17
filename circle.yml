@@ -47,7 +47,7 @@ test:
     - ? |
         case $CIRCLE_NODE_INDEX in
           0) rvm-exec 2.0.0-p645 bundle exec appraisal rails-3.2 rake spec:integration:rails ;;
-          1) rvm-exec 2.1.10-p645 bundle exec appraisal rails-3.2 rake spec:integration:rails ;;
+          1) rvm-exec 2.1.10 bundle exec appraisal rails-3.2 rake spec:integration:rails ;;
           2) rvm-exec 2.2.5 bundle exec appraisal rails-3.2 rake spec:integration:rails ;;
           3) rvm-exec 2.3.3 bundle exec appraisal rails-3.2 rake spec:integration:rails ;;
           4) rvm-exec 2.4.0 bundle exec appraisal rails-3.2 rake spec:integration:rails ;;
@@ -58,7 +58,7 @@ test:
     - ? |
         case $CIRCLE_NODE_INDEX in
           0) rvm-exec 2.0.0-p645 bundle exec appraisal rails-4.0 rake spec:integration:rails ;;
-          1) rvm-exec 2.1.10-p645 bundle exec appraisal rails-4.0 rake spec:integration:rails ;;
+          1) rvm-exec 2.1.10 bundle exec appraisal rails-4.0 rake spec:integration:rails ;;
           2) rvm-exec 2.2.5 bundle exec appraisal rails-4.0 rake spec:integration:rails ;;
           3) rvm-exec 2.3.3 bundle exec appraisal rails-4.0 rake spec:integration:rails ;;
           4) rvm-exec 2.4.0 bundle exec appraisal rails-4.0 rake spec:integration:rails ;;
@@ -69,7 +69,7 @@ test:
     - ? |
         case $CIRCLE_NODE_INDEX in
           0) rvm-exec 2.0.0-p645 bundle exec appraisal rails-4.1 rake spec:integration:rails ;;
-          1) rvm-exec 2.1.10-p645 bundle exec appraisal rails-4.1 rake spec:integration:rails ;;
+          1) rvm-exec 2.1.10 bundle exec appraisal rails-4.1 rake spec:integration:rails ;;
           2) rvm-exec 2.2.5 bundle exec appraisal rails-4.1 rake spec:integration:rails ;;
           3) rvm-exec 2.3.3 bundle exec appraisal rails-4.1 rake spec:integration:rails ;;
           4) rvm-exec 2.4.0 bundle exec appraisal rails-4.1 rake spec:integration:rails ;;
@@ -80,7 +80,7 @@ test:
     - ? |
         case $CIRCLE_NODE_INDEX in
           0) rvm-exec 2.0.0-p645 bundle exec appraisal rails-4.2 rake spec:integration:rails ;;
-          1) rvm-exec 2.1.10-p645 bundle exec appraisal rails-4.2 rake spec:integration:rails ;;
+          1) rvm-exec 2.1.10 bundle exec appraisal rails-4.2 rake spec:integration:rails ;;
           2) rvm-exec 2.2.5 bundle exec appraisal rails-4.2 rake spec:integration:rails ;;
           3) rvm-exec 2.3.3 bundle exec appraisal rails-4.2 rake spec:integration:rails ;;
           4) rvm-exec 2.4.0 bundle exec appraisal rails-4.2 rake spec:integration:rails ;;
@@ -101,7 +101,7 @@ test:
     - ? |
         case $CIRCLE_NODE_INDEX in
           0) rvm-exec 2.0.0-p645 bundle exec appraisal sinatra rake spec:integration:sinatra ;;
-          1) rvm-exec 2.1.10-p645 bundle exec appraisal sinatra rake spec:integration:sinatra ;;
+          1) rvm-exec 2.1.10 bundle exec appraisal sinatra rake spec:integration:sinatra ;;
           2) rvm-exec 2.2.5 bundle exec appraisal sinatra rake spec:integration:sinatra ;;
           3) rvm-exec 2.3.3 bundle exec appraisal sinatra rake spec:integration:sinatra ;;
           4) rvm-exec 2.4.0 bundle exec appraisal sinatra rake spec:integration:sinatra ;;
@@ -112,7 +112,7 @@ test:
     - ? |
         case $CIRCLE_NODE_INDEX in
           0) rvm-exec 2.0.0-p645 bundle exec appraisal rack rake spec:integration:rack ;;
-          1) rvm-exec 2.1.10-p645 bundle exec appraisal rack rake spec:integration:rack ;;
+          1) rvm-exec 2.1.10 bundle exec appraisal rack rake spec:integration:rack ;;
           2) rvm-exec 2.2.5 bundle exec appraisal rack rake spec:integration:rack ;;
           3) rvm-exec 2.3.3 bundle exec appraisal rack rake spec:integration:rack ;;
           4) rvm-exec 2.4.0 bundle exec appraisal rack rake spec:integration:rack ;;
@@ -124,7 +124,7 @@ test:
     - ? |
         case $CIRCLE_NODE_INDEX in
           0) rvm-exec 2.0.0-p645 bundle exec rake spec:unit ;;
-          1) rvm-exec 2.1.10-p645 bundle exec rake spec:unit ;;
+          1) rvm-exec 2.1.10 bundle exec rake spec:unit ;;
           2) rvm-exec 2.2.5 bundle exec rake spec:unit ;;
           3) rvm-exec 2.3.3 bundle exec rake spec:unit ;;
           4) rvm-exec 2.4.0 bundle exec rake spec:unit ;;
