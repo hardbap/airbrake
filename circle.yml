@@ -90,7 +90,6 @@ test:
         parallel: true
     - ? |
         case $CIRCLE_NODE_INDEX in
-          0) rvm-exec 2.0.0-p645 bundle exec appraisal rails-5.0 rake spec:integration:rails ;;
           1) rvm-exec 2.1.10-p645 bundle exec appraisal rails-5.0 rake spec:integration:rails ;;
           2) rvm-exec 2.2.5 bundle exec appraisal rails-5.0 rake spec:integration:rails ;;
           3) rvm-exec 2.3.3 bundle exec appraisal rails-5.0 rake spec:integration:rails ;;
